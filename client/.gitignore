@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+.pnpm-store
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# OS-specific
+.DS_Store
+
+# Temporary files
+*.local
+.temp/
+.tmp/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Editors and IDEs
+.vscode/
+!.vscode/extensions.json
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode specific
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Solution/project files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?  # Compiled output
+
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
